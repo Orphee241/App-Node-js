@@ -27,3 +27,6 @@ const app = express(); // Création de notre application
 const port = 3000 
 
 app.listen(port) //port du server
+
+Pour lancer l'application tapez la commande suivante:
+npm start
