@@ -11,12 +11,12 @@ Pour faire fonctionner l'application, il faut au préalable installer node js.
 Pour installer un module on effectue la commande suivante:
 npm install nom du module
 
-Après installation de mysql et express-myconnection, on créé des constantes dans un ficher app.js que nous créerons nous-mêmes pour les inclure.
+Après installation de mysql et express-myconnection, on créé des constantes dans un fichier app.js que nous créerons nous-mêmes pour les inclure.
 
 const mysql = require("mysql")
 const myConnection = require(express-myconnection)
 
-Pour se connecter à la base de donner on procède de la manière suivante:
+Pour se connecter à la base de donnée on procède de la manière suivante:
 app.use(myConnection(mysql,optionBDD, "pool")
 
 NB: Tout ceci se fait après avoir créer l'application avec express dans le fichier app.js
